@@ -1,0 +1,12 @@
+h1 {
+  color: blue;
+  font-size: 20pt; /* Font Size for Size 1pt = 1.333px */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; /* Font family ordered by preference */
+}
+
+p {
+  font-size: small;
+  font-weight: bold; /* Thickness of the font */
+  font-style: italic; /* Style of the font */
+}
