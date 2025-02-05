@@ -36,3 +36,41 @@ li {
   /* the first 2 values are for red, the second 2 are for green, and the last 2 are for blue */
   color: #279527;
 }
+
+/* hover is a pseudo-class that is used to change the style of an element when the mouse is over it */
+#subscribe:hover {
+  background-color: aquamarine;
+  color: purple;
+}
+
+input:invalid {
+  border-style: solid;
+  border-color: red;
+}
+
+input:valid {
+  border-style: solid;
+  border-color: green;
+}
+
+input {
+  border-style: solid;
+  border-color: black;
+}
+
+/* link pseudo-class is used to style unvisited links */
+a:link {
+  color: cadetblue;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  color: darkorange;
+}
+
+a:active {
+  color: darkgreen;
+}
