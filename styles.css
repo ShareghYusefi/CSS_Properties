@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: rgba(0, 0, 255, 0.5);
   font-size: 20pt; /* Font Size for Size 1pt = 1.333px */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif; /* Font family ordered by preference */
@@ -12,6 +12,7 @@ p {
   font-weight: bold; /* Thickness of the font */
   font-style: italic; /* Style of the font */
   text-align: justify; /* justify means the text is aligned to both the left and right margins */
+  color: rgb(196, 182, 30);
 }
 
 #tree {
@@ -21,4 +22,17 @@ p {
   /* url() is used to specify the path to the image */
   background-image: url("christmas_tree.jpg");
   background-size: cover; /* cover means the background image will cover the entire container */
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+}
+
+h2 {
+  color: hsla(270, 100%, 50%, 1);
+  background-color: aqua;
+}
+
+li {
+  /* the first 2 values are for red, the second 2 are for green, and the last 2 are for blue */
+  color: #279527;
 }
