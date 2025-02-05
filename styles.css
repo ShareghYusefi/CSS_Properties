@@ -3,10 +3,22 @@ h1 {
   font-size: 20pt; /* Font Size for Size 1pt = 1.333px */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif; /* Font family ordered by preference */
+  text-align: center; /* left, right, center, justify */
+  text-transform: uppercase; /* uppercase, lowercase, capitalize */
 }
 
 p {
   font-size: small;
   font-weight: bold; /* Thickness of the font */
   font-style: italic; /* Style of the font */
+  text-align: justify; /* justify means the text is aligned to both the left and right margins */
+}
+
+#tree {
+  /* elements can have a width and height */
+  height: 250px;
+  width: 250px;
+  /* url() is used to specify the path to the image */
+  background-image: url("christmas_tree.jpg");
+  background-size: cover; /* cover means the background image will cover the entire container */
 }
