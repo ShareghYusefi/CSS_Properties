@@ -22,9 +22,11 @@ p {
   /* url() is used to specify the path to the image */
   background-image: url("christmas_tree.jpg");
   background-size: cover; /* cover means the background image will cover the entire container */
-  border-style: solid;
+  border-style: ridge;
   border-color: blue;
   border-width: 5px;
+  border-radius: 5px;
+  margin: auto; /* auto means the browser will calculate the margin */
 }
 
 h2 {
@@ -35,6 +37,14 @@ h2 {
 li {
   /* the first 2 values are for red, the second 2 are for green, and the last 2 are for blue */
   color: #279527;
+}
+
+/* units of properties px, em. %, rem */
+/* em is relative to the font-size of the element */
+/* rem is relative to the font-size of the root element being the html element */
+
+button {
+  padding: 0 2em;
 }
 
 /* hover is a pseudo-class that is used to change the style of an element when the mouse is over it */
@@ -56,6 +66,12 @@ input:valid {
 input {
   border-style: solid;
   border-color: black;
+}
+
+a {
+  /* auto means the browser will calculate the margin */
+  /* 5% of the width of the parent element */
+  margin: auto 5px;
 }
 
 /* link pseudo-class is used to style unvisited links */
